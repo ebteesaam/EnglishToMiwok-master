@@ -65,7 +65,7 @@ public class NumbersActivity extends AppCompatActivity {
                 mMediaPlayer.setOnCompletionListener(mcompletionListener);
             }
         });
-
+//
         //      LinearLayout rootView = (LinearLayout)findViewById(R.id.rootView);
         //        int index=0;
         //while (index<words.size()){
