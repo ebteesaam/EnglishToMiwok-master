@@ -13,6 +13,9 @@
         android:layout_height="88dp"
         android:background="#FFF7dA"
         android:src="@mipmap/ic_launcher" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/text_container"
@@ -45,4 +48,21 @@
 
 
     </LinearLayout>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+
+            android:src="@drawable/ic_action_name"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"/>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="?android:attr/selectableItemBackground"/>-->
+
+    </RelativeLayout>
 </LinearLayout>
